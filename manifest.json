@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Google AI Remover",
+    "version": "1.0.0", 
+    "description" : "Remove AI Overview when searching",
+
+    "content-scripts": [
+        {
+            "matches": ["https://www.google.com/search*"]
+        }
+    ]
+}
